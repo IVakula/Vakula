@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Task2 {
     public static void main (String [] args){
         System.out.println("Введите движения робота");
-        Scanner scannerJewels = new Scanner(System.in);
-        String moves = scannerJewels.nextLine();
+        Scanner scannerMoves = new Scanner(System.in);
+        String moves = scannerMoves.nextLine();
         Task2 task2 = new Task2();
         System.out.println(task2.judgeCircle(moves));
     }
