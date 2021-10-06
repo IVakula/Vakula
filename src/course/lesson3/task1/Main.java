@@ -2,7 +2,7 @@ package course.lesson3.task1;
 
 
 public class Main {
-    public static void main (String [] args){
+    public static void main(String[] args) {
         Person oleg = new Person("Сидоров", "Олег", "Петрович");
         Person ivan = new Person("Иванов Иван Иванович");
         System.out.println(oleg);
