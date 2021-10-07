@@ -1,9 +1,9 @@
 package course.lesson3.task1;
 
 public class Person {
-    private String firstName;
-    private String lastName;
-    private String patronymic;
+    private final String firstName;
+    private final String lastName;
+    private final String patronymic;
 
     public Person(String firstName, String lastName, String patronymic) {
         this.firstName = firstName;

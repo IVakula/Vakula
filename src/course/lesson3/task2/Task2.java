@@ -1,6 +1,5 @@
 package course.lesson3.task2;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -17,6 +16,7 @@ public class Task2 {
         System.out.println("Введите количество элементов массива");
         Scanner number3 = new Scanner(System.in);
         int numberElementsArray = number3.nextInt();
+
         int[] inputArray = new int[numberElementsArray];
         Random randomNumber = new Random();
         for (int i = 0; i < inputArray.length; i++) {
@@ -29,8 +29,9 @@ public class Task2 {
         for (int i = 0; i < inputArray.length; i++) {
             System.out.print(inputArray[i] + " ");
         }
+
         Task2 task2 = new Task2();
-        long[] resultArray = task2.arraySquaresNumbers(inputArray);
+        long[] resultArray = task2.sortArraySquaresNumbers(inputArray);
         System.out.println();
         System.out.println("Результирующий массив:");
         for (int i = 0; i < resultArray.length; i++) {
@@ -38,7 +39,7 @@ public class Task2 {
         }
     }
 
-    public long[] arraySquaresNumbers(int[] inputArray) {
+    public long[] sortArraySquaresNumbers(int[] inputArray) {
 
         long[] arraySquaresNumbers = new long[inputArray.length];
         for (int i = 0; i < arraySquaresNumbers.length; i++) {
