@@ -1,9 +1,9 @@
 package course.lesson6.task1;
 
 public class Circle implements Shape {
-    Double radius;
+    private double radius;
 
-    public Circle(Double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 

@@ -1,10 +1,10 @@
 package course.lesson6.task1;
 
 public class Triangle implements Shape {
-    Double side = null;
-    Double height = null;
+    private double side;
+    private double height;
 
-    public Triangle(Double side, Double height) {
+    public Triangle(double side, double height) {
         this.side = side;
         this.height = height;
     }
